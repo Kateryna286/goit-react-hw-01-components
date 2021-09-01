@@ -1,3 +1,4 @@
+import './TransactionHistory.css';
 import PropTypes from 'prop-types';
 
 function TransactionHistory({ items }) {
