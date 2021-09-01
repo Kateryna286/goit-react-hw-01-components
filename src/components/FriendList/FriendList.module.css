@@ -1,10 +1,17 @@
+.list {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
 .item div {
   display: flex;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   background-color: white;
   margin-bottom: 20px;
-  width: 300px;
+
   padding: 20px;
 }
 
@@ -32,9 +39,4 @@
   margin: 0;
   margin-left: 40px;
   font-size: 28px;
-}
-
-.list {
-  padding: 0;
-  margin-left: 40px;
 }
