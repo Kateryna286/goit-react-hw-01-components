@@ -4,12 +4,12 @@ function FriendListItem({ avatar, name, isOnline }) {
   return (
     <div>
       {isOnline ? (
-        <span class="friendlist__status--online"></span>
+        <span className="friendlist__status--online"></span>
       ) : (
-        <span class="friendlist__status--ofline"></span>
+        <span className="friendlist__status--ofline"></span>
       )}
-      <img class="friendlist__avatar" src={avatar} alt={name} width="48" />
-      <p class="friendlist__name">{name}</p>
+      <img className="friendlist__avatar" src={avatar} alt={name} width="48" />
+      <p className="friendlist__name">{name}</p>
     </div>
   );
 }

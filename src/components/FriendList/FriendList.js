@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 
 function FriendList({ friends }) {
   return (
-    <ul class="friendlist">
+    <ul className="friendlist">
       {friends.map(friend => (
-        <li class="friendlist__item" key={friend.id}>
+        <li className="friendlist__item" key={friend.id}>
           <FriendListItem
             avatar={friend.avatar}
             isOnline={friend.isOnline}

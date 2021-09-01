@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import './Statistics.css';
-//import StatData from './StatData';
 
 function Statistics({ title, stats }) {
   return (
@@ -34,26 +33,3 @@ Statistics.propTypes = {
 };
 
 export default Statistics;
-
-// function  Statistics ({ items }) {
-//     return (
-//         <ul className="stat-list">
-//             {items.map(item => (
-//                 <li className="item" key={item.id}>
-//                     <StatData
-//                     label = {item.label}
-//                     percentage = {item.percentage}
-//                     />
-//                 </li>
-//             ))}
-//         </ul>
-//     )
-// };
-
-// Statistics.propTypes = {
-//     items: PropTypes.arrayOf(
-//       PropTypes.shape({
-//         id: PropTypes.string.isRequired,
-//       }),
-//     ),
-// };
