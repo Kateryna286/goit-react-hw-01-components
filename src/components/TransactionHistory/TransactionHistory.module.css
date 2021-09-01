@@ -1,4 +1,4 @@
-.transaction-history {
+.table {
   margin-left: 40px;
   margin-bottom: 40px;
   text-align: center;
@@ -7,7 +7,7 @@
   border-spacing: 0;
 }
 
-.transaction-history thead {
+.table thead {
   height: 40px;
 }
 

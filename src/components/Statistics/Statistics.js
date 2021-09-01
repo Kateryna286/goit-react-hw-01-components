@@ -1,27 +1,27 @@
 import PropTypes from 'prop-types';
-import './Statistics.css';
+import s from './Statistics.module.css';
 
 function Statistics({ title, stats }) {
   return (
-    <section className="Statistics">
-      {title && <h2 className="Statistics__title">{title}</h2>}
+    <section className={s.container}>
+      {title && <h2 className={s.title}>{title}</h2>}
 
-      <ul className="Statistics__stat--list">
-        <li className="Statistics__item">
-          <span className="Statistics__label">{stats[0].label}</span>
-          <span className="Statistics__percentage">{stats[0].percentage}</span>
+      <ul className={s.list}>
+        <li className={s.item} style={{ backgroundColor: '#4ec6f6' }}>
+          <span className={s.label}>{stats[0].label}</span>
+          <span className={s.percentage}>{stats[0].percentage}</span>
         </li>
-        <li className="Statistics__item">
-          <span className="Statistics__label">{stats[1].label}</span>
-          <span className="Statistics__percentage">{stats[1].percentage}</span>
+        <li className={s.item} style={{ backgroundColor: '#a33df3' }}>
+          <span className={s.label}>{stats[1].label}</span>
+          <span className={s.percentage}>{stats[1].percentage}</span>
         </li>
-        <li className="Statistics__item">
-          <span className="Statistics__label">{stats[2].label}</span>
-          <span className="Statistics__percentage">{stats[2].percentage}</span>
+        <li className={s.item} style={{ backgroundColor: '#e64c66' }}>
+          <span className={s.label}>{stats[2].label}</span>
+          <span className={s.percentage}>{stats[2].percentage}</span>
         </li>
-        <li className="Statistics__item">
-          <span className="Statistics__label">{stats[3].label}</span>
-          <span className="Statistics__percentage">{stats[3].percentage}</span>
+        <li className={s.item} style={{ backgroundColor: '#22b8c5' }}>
+          <span className={s.label}>{stats[3].label}</span>
+          <span className={s.percentage}>{stats[3].percentage}</span>
         </li>
       </ul>
     </section>

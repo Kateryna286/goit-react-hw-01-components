@@ -1,4 +1,4 @@
-.friendlist__item div {
+.item div {
   display: flex;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -8,7 +8,7 @@
   padding: 20px;
 }
 
-.friendlist__status--online {
+.statusOnline {
   display: block;
   width: 15px;
   height: 15px;
@@ -16,7 +16,7 @@
   background-color: green;
 }
 
-.friendlist__status--ofline {
+.statusOffline {
   display: block;
   width: 15px;
   height: 15px;
@@ -24,12 +24,17 @@
   background-color: red;
 }
 
-.friendlist__avatar {
+.avatar {
   margin-left: 40px;
 }
 
-.friendlist__name {
+.name {
   margin: 0;
   margin-left: 40px;
   font-size: 28px;
+}
+
+.list {
+  padding: 0;
+  margin-left: 40px;
 }
