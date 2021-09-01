@@ -1,0 +1,35 @@
+.friendlist__item div {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: white;
+  margin-bottom: 20px;
+  width: 300px;
+  padding: 20px;
+}
+
+.friendlist__status--online {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.friendlist__status--ofline {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.friendlist__avatar {
+  margin-left: 40px;
+}
+
+.friendlist__name {
+  margin: 0;
+  margin-left: 40px;
+  font-size: 28px;
+}
