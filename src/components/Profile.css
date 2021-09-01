@@ -1,11 +1,15 @@
 .Profile {
   margin-left: 40px;
-  padding: 20px;
+  padding-top: 40px;
   width: 300px;
-  background-color: rgba(146, 194, 184, 0.3);
+  background-color: rgb(255, 255, 255);
   text-align: center;
-  border-radius: 5%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 5px;
+}
+
+.Profile__description {
+  margin-bottom: 40px;
 }
 
 .Profile__avatar {
@@ -32,7 +36,6 @@
 
 .Profile__location {
   margin-top: 5px;
-  margin-bottom: 15px;
   font-size: 16px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
@@ -42,12 +45,19 @@
   display: flex;
   width: auto;
   gap: 15px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 0;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  background-color: rgb(243, 246, 249);
+  border-top: 1px solid rgb(228, 233, 240);
 }
 
 .Profile__stats--item {
   display: grid;
   gap: 10px;
+  justify-items: center;
 }
 
 .Profile__label {
